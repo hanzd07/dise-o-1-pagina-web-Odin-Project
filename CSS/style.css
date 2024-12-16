@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #D3D3D3;
+}
+
+.logolinks {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content1img {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 100px;
+}
+
+.content1 {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px; 
+}
+
+.signup1 {
+    color: white;
+    background-color: cornflowerblue;
+    height: auto;
+    width: 100px;
+}
