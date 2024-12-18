@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-color: #D3D3D3;
+    background-color: #D9CEC3;
 }
 
 .logolinks {
@@ -27,9 +27,8 @@ ul {
 }
 
 .content1img {
-    width: 50%;
     display: flex;
-    margin: auto;
+    justify-content: center;
     align-items: center;
     gap: 100px;
 }
@@ -49,3 +48,48 @@ ul {
     height: auto;
     width: 100px;
 }
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+.text1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+ .Mountains {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .Flower {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .Snowy {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .Waterfalls {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .body1 {
+    background-color: #F2E9D2;
+    text-align: center;
+ }
