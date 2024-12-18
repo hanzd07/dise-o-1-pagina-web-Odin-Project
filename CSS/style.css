@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-color: #D9CEC3;
+    background-color: #d1caba;
 }
 
 .logolinks {
@@ -48,6 +48,11 @@ ul {
     height: auto;
     width: 100px;
 }
+
+.body1 {
+    background-color: #d8d1c2;
+    text-align: center;
+ }
 
 .pictures {
     display: flex;
@@ -89,7 +94,49 @@ ul {
     gap: 20px;
  }
 
- .body1 {
-    background-color: #F2E9D2;
-    text-align: center;
+ .body2 {
+    height: 400px;
+    width: 100%;
+    background-color: #e4dac6;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
+
+.text2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.body3 {
+    height: 250px;
+    background-color: #f0e4cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagesignup2 {
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+    background-color: hsl(224, 84%, 62%);
+    display: flex;
+    gap: 50px;
+}
+
+.signup2 {
+    border: 1px solid white;
+    width: 100px;
+    color: white;
+    background-color: hsl(224, 84%, 62%);
+    margin-top: 10px;
+}
+
+footer {
+    padding: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: #d1caba;
+    text-align: center;
+}
